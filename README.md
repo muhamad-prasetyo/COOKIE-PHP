@@ -30,7 +30,6 @@ Cookie memiliki kegunaan yang hampir sama dengan session namun cookie disimpan d
 
 File cookie.php simpan di dalam folder C:\xampp\htdocs\belajar-php
 
-<?php
  
     //Set cookie tanpa waktu
 
@@ -40,7 +39,7 @@ File cookie.php simpan di dalam folder C:\xampp\htdocs\belajar-php
 
     echo $_COOKIE['negara'];
      
-?>
+
 
 Untuk mencoba ketikan url dibawah ini di browser kamu.
 
