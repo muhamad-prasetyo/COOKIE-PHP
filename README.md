@@ -14,9 +14,11 @@ Berikut aturan pembuatan session :
 Membuat cookie.
 
 /* Membuat cookie tanpa set waktu */ 
+
 setcookie("nama cookie", "nilai cookie");
 
 /* Atau dengan menambahkan waktu seperti dibawah ini */ 
+
 setcookie("nama cookie", "nilai cookie", "waktu masa berlaku cookie");
 
 Mengambil Nilai cookie.
@@ -24,6 +26,7 @@ Mengambil Nilai cookie.
 $_COOKIE['nama cookie'];
 
 File cookie.php simpan di dalam folder C:\xampp\htdocs\belajar-php
+
 <?php
  
     //Set cookie tanpa waktu
